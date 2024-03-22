@@ -1,5 +1,3 @@
-****Terraform Multi-Tiered Architecture on AWS
-**
 I created the initial infrastructure on the AWS console.
 
 For a more challenging project, I have created the same infrastrucure with Terraform, including the addition of:
