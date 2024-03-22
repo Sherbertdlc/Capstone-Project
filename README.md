@@ -1,10 +1,5 @@
-# Capstone-Project
-
-The idea behind this project is to host my website on a server - with the files from persistent source (s3 bucket).
-
-- I created a simple html layout for my personal one pager CV. 
-- I altered the css file to stylise my website.
-
+****Terraform Multi-Tiered Architecture on AWS
+**
 I created the initial infrastructure on the AWS console.
 
 For a more challenging project, I have created the same infrastrucure with Terraform, including the addition of:
