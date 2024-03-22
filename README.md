@@ -7,6 +7,8 @@ For a more challenging project, I have created the same infrastrucure with Terra
 - Increased availability by deploying in 2 Availability zones
 - 1 Public, 2 Private Subnets in each AZ
 - Database
+
+  
 The new infrastructure represents a Three-Tiered Web Application - Web, Application and Database.
 
 I created a blog on my process: 
