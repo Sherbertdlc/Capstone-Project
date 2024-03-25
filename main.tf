@@ -218,7 +218,7 @@ resource "aws_security_group" "alb-app-sg" {
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
-    security_groups = [aws_security_group.alb-web-sg.id]
+    security_groups = [aws_security_group.alb-app-sg.id]
     
   }
 
