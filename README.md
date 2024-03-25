@@ -5,11 +5,11 @@ I created this initial infrastructure on the AWS console.
 
 For a more challenging project, I have created the same infrastrucure with Terraform, including:
 
-- Autoscaling group
-- Load balancer 
+- Autoscaling groups
+- Load balancers
 - Increased availability by deploying in 2 Availability zones
 - 1 Public, 2 Private Subnets in each AZ
-- Database
+- RDS Database
 
 ## This three-tiered architecture consists of the following layers: ##
 
