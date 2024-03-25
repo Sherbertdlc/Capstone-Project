@@ -187,7 +187,7 @@ resource "aws_security_group" "alb-web-sg" {
   vpc_id      = aws_vpc.vpc_name.id
 
   ingress {
-    description = "http"
+    description = "http from internet"
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
@@ -214,11 +214,11 @@ resource "aws_security_group" "alb-app-sg" {
   vpc_id      = aws_vpc.vpc_name.id
 
   ingress {
-    description = "http"
+    description = "http from internet"
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
-    security_groups = [aws_security_group.alb-app-sg.id]
+    security_groups = [aws_security_group.web-asg-security-group.id]
     
   }
 
