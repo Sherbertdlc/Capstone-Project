@@ -19,4 +19,4 @@ Application Tier - Application servers run our business logic and interact with 
 
 Database Tier - The database stores and manages our application data. In this architecture, we use Amazon RDS for a managed database service.
 
-I created a blog on my process: 
+I created a blog on my process: https://www.linkedin.com/pulse/multi-tiered-architecture-aws-using-terraform-marshall-doyle-vle1c/?trackingId=dzbzbcQYQHKW3ef6Jt8EpQ%3D%3D
